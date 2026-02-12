@@ -62,20 +62,20 @@ and will require Tech Council (TC) approval. Because a change to the protocol
 requires the entire adopting ecosystem to implement the change, we consider
 significant changes to include:
 
-* Core Schema Modifications: Any change to JSON schemas, including
+- Core Schema Modifications: Any change to JSON schemas, including
   adding/updating fields or field descriptions
-* Protocol Changes: Alterations to communication flows or expected behaviors of
+- Protocol Changes: Alterations to communication flows or expected behaviors of
   operations
-* New API Endpoints: Introduction of entirely new capabilities or services.
-* Backwards Incompatibility: Any "breaking" change that requires a major version
+- New API Endpoints: Introduction of entirely new capabilities or services.
+- Backwards Incompatibility: Any "breaking" change that requires a major version
   increment.
 
 An [Enhancement Proposal](../../issues/new?template=enhancement-proposal.md)
 is a living artifact that tracks a proposal through its lifecycle:
 
-* **Proposal:** Anyone can submit; idea is proposed and debated.
-* **Provisional:** TC majority vote to accept; enters working draft iteration.
-* **Implemented:** TC majority vote to finalize; code complete and merged.
+- **Proposal:** Anyone can submit; idea is proposed and debated.
+- **Provisional:** TC majority vote to accept; enters working draft iteration.
+- **Implemented:** TC majority vote to finalize; code complete and merged.
 
 Every [Enhancement Proposal](../../issues/new?template=enhancement-proposal.md)
 must follow a standard template requiring sections for a Summary, Motivation,
@@ -89,36 +89,36 @@ enters the maturity lifecycle with the following stability guarantees:
 
 #### Working Draft
 
-* **Version:** `Working Draft`
-* **Stability:** Breaking changes expected
-* **Status:** Prototyping, gathering feedback, iterating on design
-* **Exit criteria:** TC majority vote to advance
+- **Version:** `Working Draft`
+- **Stability:** Breaking changes expected
+- **Status:** Prototyping, gathering feedback, iterating on design
+- **Exit criteria:** TC majority vote to advance
 
 #### Candidate
 
-* **Version:** `Candidate`
-* **Stability:** API surface stable; implementation details may evolve
-* **Status:** Early adopter implementations, production pilots
-* **Exit criteria:** TC majority vote to advance
+- **Version:** `Candidate`
+- **Stability:** API surface stable; implementation details may evolve
+- **Status:** Early adopter implementations, production pilots
+- **Exit criteria:** TC majority vote to advance
 
 #### Stable
 
-* **Version:** `YYYY-MM-DD` (date-based version assigned)
-* **Stability:** Full backward compatibility within major version
-* **Status:** Production deployments
+- **Version:** `YYYY-MM-DD` (date-based version assigned)
+- **Stability:** Full backward compatibility within major version
+- **Status:** Production deployments
 
 ### Voting and decision making
 
 The path below should be followed for resolving issues that are technical in
 nature.
 
-* L1: routine changes (bug fixes, documentation, minor improvements) require
+- L1: routine changes (bug fixes, documentation, minor improvements) require
   approval from at least 2 Maintainers.
-* L2: Any technical issues that span across topics and/or cannot be resolved
+- L2: Any technical issues that span across topics and/or cannot be resolved
   amongst maintainers and DWGs will be escalated to the TC. Significant changes
   affecting core protocol architecture must follow the Enhancement Proposal
   process, requiring TC approval before implementation.
-* L3: Any changes made to the Governance process (e.g updating the
+- L3: Any changes made to the Governance process (e.g updating the
   [GOVERNANCE.md](GOVERNANCE.md) file) or any changes that impact the core
   protocol’s scope or adoption, must be approved by Governance Council (GC).
 
@@ -141,7 +141,7 @@ UCP is designed to be extensible while keeping the core protocol light. A
 core principle of UCP is to ensure that the set of extensions and capabilities
 defined in UCP have broad ecosystem support. Vendors should first create
 capabilities & extensions in vendor-specific namespace pattern
-(e.g. com.{vendor}.*) for new use cases. Requests to add new capabilities and
+(e.g. com.{vendor}.\*) for new use cases. Requests to add new capabilities and
 extensions should only be submitted when there is proven widespread adoption of
 vendor-specific capabilities and extensions. See
 [Spec URL Binding](https://ucp.dev/specification/overview/#spec-url-binding)
@@ -164,21 +164,21 @@ add `!` before the colon: `type!: description`.
 
 **Common Types:**
 
-* `feat`: A new feature
-* `fix`: A bug fix
-* `docs`: Documentation only changes
-* `style`: Changes that do not affect the meaning of the code
-* `refactor`: A code change that neither fixes a bug nor adds a feature
-* `perf`: A change to the code that improves performance
-* `test`: Adding missing tests or correcting existing tests
-* `chore`: Changes to the build process or auxiliary tools and libraries
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Changes that do not affect the meaning of the code
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `perf`: A change to the code that improves performance
+- `test`: Adding missing tests or correcting existing tests
+- `chore`: Changes to the build process or auxiliary tools and libraries
 
 **Examples:**
 
-* `feat: add new payment gateway`
-* `fix: resolve crash on checkout`
-* `docs: update setup guide`
-* `feat!: remove deprecated buyer field from checkout`
+- `feat: add new payment gateway`
+- `fix: resolve crash on checkout`
+- `docs: update setup guide`
+- `feat!: remove deprecated buyer field from checkout`
 
 ### Linting and Automated Checks
 
@@ -208,7 +208,7 @@ installed on your system.
 3. If you've installed `pre-commit`, it will run checks as you commit.
 4. Ensure your pull request title follows the Conventional Commits format.
 5. Fill out the pull request template in GitHub, providing details about
-    your change.
+   your change.
 6. Push your branch to GitHub and open a pull request.
 7. Address any automated check failures or reviewer feedback.
 
