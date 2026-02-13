@@ -54,7 +54,7 @@ Examples of unacceptable behavior by participants include:
 """
 
 root_agent = Agent(
-    model="gemini-1.5-flash",
+    model="gemini-2.0-flash",
     name="discussion_moderation_agent",
     description="Moderate GitHub discussions based on Lazy Involvement philosophy.",
     instruction=f"""
