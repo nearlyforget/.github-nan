@@ -224,7 +224,7 @@ def change_issue_type(issue_number: int, issue_type: str) -> dict[str, Any]:
 
 
 root_agent = Agent(
-    model="gemini-2.5-pro",
+    model="gemini-2.0-flash",
     name="issue_triage_assistant",
     description="Triage GitHub issues with category labels.",
     instruction=f"""
