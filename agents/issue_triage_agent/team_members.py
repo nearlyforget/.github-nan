@@ -15,8 +15,40 @@
 # Defines the mapping from GitHub Team Name to a list of member GitHub logins.
 # The first member in each list is considered the default assignee for issues.
 TEAM_MEMBERS = {
-    "technical-committee": ["nearlyforget", "tc_member2_user"],
-    "governance-committee": ["nearlyforget", "gc_member2_user"],
-    "maintainers": ["nearlyforget", "maintainer2_user"],
-    "devops-maintainers": ["nearlyforget", "devops2_user"],
+    "technical-committee": [
+        "igrigorik",
+        "aglazer",
+        "amithanda",
+        "maximenajim",
+        "vvemula",
+        "lemonmade",
+        "mnaga",
+        "sinhanurag",
+        "ihoosain",
+        "raginpirate",
+        "drewolson-google",
+    ],
+    "governance-committee": [
+        "igrigorik",
+        "amithanda",
+    ],
+    "maintainers": [
+        "richmolj",
+        "westeezy",
+        "jingyli",
+        "DanielFalconGuedes",
+        "mmohades",
+        "yanheChen",
+        "alexpark20",
+        "knightlin-shopify",
+    ],
+    "devops-maintainers": [
+        "wry-ry",
+        "ptiper",
+        "nearlyforget",
+        "aksbro-gpu",
+        "MitkoDeyanovMitev",
+        "damaz91",
+        "carol-w-tech",
+    ],
 }
