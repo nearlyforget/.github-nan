@@ -6,7 +6,7 @@
 
 *Please select one or more categories that apply to this change.*
 
-- [ ] **Core Protocol**: Changes to the base communication layer, global context, or breaking refactors. (Requires TC Approval)
+- [ ] **Core Protocol**: Changes to the base communication layer, global context, or breaking refactors. (Requires [TC](https://github.com/orgs/Universal-Commerce-Protocol/teams/tech-council) approval)
 - [ ] **Governance/Contributing**: Updates to GOVERNANCE.md or CONTRIBUTING.md
 - [ ] **Capability**: New schemas (Discovery, Cart, etc.) or extensions. (Requires Domain Expert)
 - [ ] **Documentation**: Updates to README, or maturity levels.
