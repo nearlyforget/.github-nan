@@ -8,8 +8,8 @@
 
 - [ ] **Core Protocol**: Changes to the base communication layer, global context, or breaking refactors. (Requires [TC](https://github.com/orgs/Universal-Commerce-Protocol/teams/tech-council) approval)
 - [ ] **Governance/Contributing**: Updates to GOVERNANCE.md or CONTRIBUTING.md
-- [ ] **Capability**: New schemas (Discovery, Cart, etc.) or extensions. (Requires Domain Expert)
-- [ ] **Documentation**: Updates to README, or maturity levels.
+- [ ] **Capability**: New schemas (Discovery, Cart, etc.) or extensions. (Requires Maintainer's Approval)
+- [ ] **Documentation**: Updates to README, or documentations regarding schema or capabilities.
 - [ ] **Infrastructure**: CI/CD, Linters, or build scripts.
 - [ ] **Maintenance**: Version bumps, lockfile updates, or minor bug fixes.
 - [ ] **SDK**: Every time a new version is released, update language specific SDK. (Requires DevOps Maintainers Approval)
