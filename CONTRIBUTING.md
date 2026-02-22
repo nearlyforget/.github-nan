@@ -54,6 +54,19 @@ to use GitHub Discussions.
 
 ## Contribution Process
 
+### Triage Timeline
+
+To balance thorough technical review with a predictable cadence, we follow a weekly operational rhythm. Contributors can generally expect updates according to the following timeline:
+
+| Activity | Review Frequency | Expected Response |
+| :--- | :--- | :--- |
+| **Issues & PRs** | Mondays & Thursdays | Initial triage on Monday; decisions/merges on Thursday. |
+| **Discussions** | Weekly (Mondays) | Peer-led; maintainers interject only for direct mentions or scope steering. |
+
+*   **Mondays (Triage):** We acknowledge new Issues/PRs, apply labels, and assign maintainers.
+*   **Thursdays (Decision):** Approved changes are merged, and items requiring architectural review are escalated to the Technical Committee (TC).
+*   **Discussions:** We prioritize peer-to-peer interaction. Maintainers will typically only respond to direct mentions or to keep the conversation within the protocol's technical scope.
+
 ### Significant Changes
 
 Any significant change to the protocol requires a formal
